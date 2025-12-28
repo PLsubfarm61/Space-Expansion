@@ -54,10 +54,10 @@ generator: {
   stoneChance: 0
 
   # Terrain generation chances, in order: ice > carbon > beryl > ferric.
-  iceChance: 0.5
-  carbonChance: 1
-  berylChance: 0
-  ferricChance: 0
+  iceChance: 0
+  carbonChance: 0.25
+  berylChance: 0.75
+  ferricChance: 1
 }
 
 # Make sure this planet is always accessible anytime.
@@ -95,5 +95,7 @@ parent: black-hole-sun
 # The parent of the whole solar system the planet is in. Affects lighting.
 solarSystem: black-hole-sun
 # Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
-hiddenItems: []
+hiddenItems: [
+copper, beryllium, titanium, lead, oxide, graphite
+]
 # Only items available in this planet. Recommended over hiddenItems.
