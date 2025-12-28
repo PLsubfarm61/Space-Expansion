@@ -1,0 +1,11 @@
+name: space-expansion
+displayName: ok
+author: ok
+subtitle: ok
+description: 
+'''
+description
+'''
+dependencies: ["multi-crafter"]
+version: 0
+minGameVersion: 146
