@@ -2,7 +2,7 @@ type: CoreBlock
 name: core: bit
 description: small core with low health, storage and size, if destroyed the sector is lost
 category: effect
-health: 500
+health: 501
 size: 2
 
 requirements: [

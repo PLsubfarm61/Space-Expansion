@@ -1,11 +1,11 @@
 name: space-expansion
-displayName: ok
-author: ok
-subtitle: ok
+displayName: space expansion
+author: oleksiy and polish_subfarm61
+subtitle: cor
 description: 
 '''
 description
 '''
 dependencies: ["multi-crafter"]
-version: 0
+version: 0.01
 minGameVersion: 146
