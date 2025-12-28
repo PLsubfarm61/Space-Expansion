@@ -67,7 +67,7 @@ alwaysUnlocked: true
 sectorSize: 4
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 16
-orbitRadius: 160
+orbitRadius: 16
 orbitOffset: 180
 orbitTime: 30
 # Radius of this planet's sphere.
