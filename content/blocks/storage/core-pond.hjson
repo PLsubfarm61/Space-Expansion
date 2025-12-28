@@ -1,0 +1,23 @@
+type: CoreBlock
+name: Core: Pond
+description: cor
+requirements: [
+  iron/1600
+  ice-shard/1000
+  
+]
+isFirstTier: true
+size: 2
+squareSprite: false
+alwaysUnlocked: true
+unitType: delta
+health: 800
+itemCapacity: 1700
+unitCapModifier: 10
+category: effect
+research: {
+  planet: orbiter
+  root: true
+  name: 2000-MRE
+  requiresUnlock: false
+}

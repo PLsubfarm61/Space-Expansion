@@ -1,5 +1,5 @@
 # The planet's display name. If you want to support multiple languages, use bundles instead!
-localizedName: Black Sunshine Rider
+localizedName: 2000-MRE
 
 # The mesh of the planet. At least MultiMesh is supported, so you can put multiple
 # NoiseMesh'es to your planet!
@@ -7,7 +7,7 @@ mesh: {
   # Mesh type. Self-explanatory.
   type: NoiseMesh
   # A number used for mesh generation.
-  seed: 69
+  seed: 65
   # Mesh "quality". More divisions = more hexagons.
   divisions: 5
   # First color to be used.
@@ -54,10 +54,10 @@ generator: {
   stoneChance: 0
 
   # Terrain generation chances, in order: ice > carbon > beryl > ferric.
-  iceChance: 0.5
-  carbonChance: 1
-  berylChance: 0
-  ferricChance: 0
+  iceChance: 0
+  carbonChance: 0.25
+  berylChance: 0.75
+  ferricChance: 1
 }
 
 # Make sure this planet is always accessible anytime.
@@ -67,7 +67,7 @@ alwaysUnlocked: true
 sectorSize: 4
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 16
-orbitRadius: 16
+orbitRadius: 21
 orbitOffset: 180
 orbitTime: 30
 # Radius of this planet's sphere.
@@ -79,11 +79,12 @@ accessible: true
 # Toggle day-night cycle.
 updateLighting: false
 # A number used for sector generation. If == -1, planet ID is picked instead.
-sectorSeed: 676
+sectorSeed: 213
 # Whether this planet is blooming.
 bloom: true
 # This is self-explanatory...
 visible: true
+allowLaunchToNumbered: true
 # The color of the planet's icon displayed in top-left dialog.
 iconColor: 29302b
 # Another self-explanatory field...
@@ -95,5 +96,7 @@ parent: black-hole-sun
 # The parent of the whole solar system the planet is in. Affects lighting.
 solarSystem: black-hole-sun
 # Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
-hiddenItems: []
+hiddenItems: [
+copper, beryllium, titanium, lead, oxide, graphite
+]
 # Only items available in this planet. Recommended over hiddenItems.

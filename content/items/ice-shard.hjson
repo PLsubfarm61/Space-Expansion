@@ -1,0 +1,14 @@
+{
+type: material
+name: ice shard
+description: a shard of ice, cna be used for water or in power
+cost: 1
+color: ffffff
+research: core-pond
+
+explosiveness: 0
+flammability: 0
+radioactivity:0
+charge: 0
+hardness: 0
+}
