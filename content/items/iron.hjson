@@ -1,0 +1,14 @@
+{
+type: material
+name: iron
+description: used in any type of thing, sturdy
+cost: 1
+color: ffffff
+research: iron-plate
+
+explosiveness: 0
+flammability: 0
+radioactivity:0
+charge: 0
+hardness: 0
+}
