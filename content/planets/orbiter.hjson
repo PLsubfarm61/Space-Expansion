@@ -66,12 +66,12 @@ alwaysUnlocked: true
 # Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
 sectorSize: 1
 # Spacing between a parent (this) and satellites.
-orbitSpacing: 16
-orbitRadius: 16
+orbitSpacing: 20
+orbitRadius: 160
 orbitOffset: 180
-orbitTime: 30
+orbitTime: 15
 # Radius of this planet's sphere.
-radius: 1.05
+radius: 1
 # Whether to draw the orbit.
 drawOrbit: true
 # Whether this can be landed on.
