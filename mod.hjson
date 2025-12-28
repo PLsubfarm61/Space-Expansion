@@ -4,7 +4,7 @@ author: ok
 subtitle: ok
 description: 
 '''
-description
+description test
 '''
 dependencies: ["multi-crafter"]
 version: 0
