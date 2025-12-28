@@ -1,0 +1,34 @@
+how black hole works
+
+it uses
+
+star: black-hole.hjson
+planets: black-hole-accretion-disc.hjson, black-hole-back.hjson
+
+black-hole is a black sphere
+black-hole-back is black sphere
+black-hole-accretion-disc is bigger colored sphere
+
+black-hole is a star so its in middle of solar system
+
+black-hole-accretion-disc is some behind black-hole, its clipping into black-hole,
+like black-hole is in black-hole-accretion-disc but not entire
+
+black-hole-back is behind black-hole-accretion-disc, but is also in it some
+
+its setup like this
+() - black-hole-back
+() - black-hole
+{} - black-hole-accretion-disc
+
+({)(})
+
+they are clipping into black-hole-accretion-disc
+
+================
+
+correct:
+({)(})
+
+incorrect:
+(){}()
